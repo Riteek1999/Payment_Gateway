@@ -1,0 +1,16 @@
+html{
+    background-color: lightskyblue;
+}
+.wrapper{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+@media only screen and (max-device-width: 480px) {
+    .wrapper{
+        position: absolute; 
+        top: 30%;
+        left: 30%;
+        /* background-color: lime; */
+    }   
+}
